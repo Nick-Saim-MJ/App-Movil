@@ -148,7 +148,6 @@ fun ShareAction( openDialog: () -> Unit) {
 @Composable
 fun MoreAction(themeType: MutableState<ThemeType>) {
     var expanded by remember { mutableStateOf(false) }
-    //val items = listOf(ThemeType.PURPLE, ThemeType.RED, ThemeType.YELLOW, ThemeType.DROWN, ThemeType.GREEN)
     IconButton(
         onClick = {expanded = true}
     ) {

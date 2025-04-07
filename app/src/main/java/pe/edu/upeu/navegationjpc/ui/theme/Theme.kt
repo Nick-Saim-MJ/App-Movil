@@ -189,7 +189,7 @@ public val sReddarkScheme = darkColorScheme(
     surfaceContainerHighest = red_surfaceContainerHighestDark,
 )
 
-enum class ThemeType{RED, GREEN}
+enum class ThemeType{RED, GREEN, BLUE}
 
 @Composable
 fun NavegationJPCTheme(

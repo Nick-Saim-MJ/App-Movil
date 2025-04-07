@@ -10,6 +10,7 @@ import pe.edu.upeu.navegationjpc.ui.theme.presentation.screens.HomeScreen
 import pe.edu.upeu.navegationjpc.ui.theme.presentation.screens.ProfileScreen
 import pe.edu.upeu.navegationjpc.ui.theme.presentation.screens.SettingsScreen
 import pe.edu.upeu.navegationjpc.ui.theme.presentation.screens.CalcUPeU
+import pe.edu.upeu.navegationjpc.ui.theme.presentation.screens.RingtoneScreen
 
 @Composable
 fun NavigationHost(navController: NavHostController) {
@@ -19,6 +20,7 @@ fun NavigationHost(navController: NavHostController) {
         composable("settings") { SettingsScreen() }
         composable("calc") { CalcUPeU() }
         composable("barcode") { BarcodeScanningScreen(navController) }
+        composable("ringtone") { RingtoneScreen() }
 
     }
 }

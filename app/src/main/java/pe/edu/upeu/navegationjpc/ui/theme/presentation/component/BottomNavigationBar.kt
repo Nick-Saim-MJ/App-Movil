@@ -5,6 +5,7 @@ import androidx.compose.material.icons.filled.AddCircle
 import androidx.compose.material.icons.filled.Call
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Icon
@@ -32,7 +33,8 @@ fun BottomNavigationBar(navController: NavHostController) {
         BottomNavItem("Profile", "profile", Icons.Default.Person),
         BottomNavItem("Settings", "settings", Icons.Default.Settings),
         BottomNavItem("calc", "calc", Icons.Default.AddCircle),
-        BottomNavItem("barcode", "barcode", Icons.Default.Info)
+        BottomNavItem("barcode", "barcode", Icons.Default.Info),
+        BottomNavItem("Ringtone", "ringtone", Icons.Default.Notifications)
 
     )
     // Estado para gestionar el elemento seleccionado
